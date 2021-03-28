@@ -8,11 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var cpuImage: UIImageView!
-    @IBOutlet weak var cpuLabel: UILabel!
+   
     
-    @IBOutlet weak var playerImage: UIImageView!
+    @IBOutlet weak var cpuLabel: UILabel!
+    @IBOutlet weak var cpuImage: UIImageView!
+    
     @IBOutlet weak var playerLabel: UILabel!
+    @IBOutlet weak var playerImage: UIImageView!
     
     //defining player's points
     var playerPoints = 0
