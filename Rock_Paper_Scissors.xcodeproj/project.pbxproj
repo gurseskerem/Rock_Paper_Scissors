@@ -15,6 +15,8 @@
 		573EFF682610832D00589BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573EFF662610832D00589BB2 /* LaunchScreen.storyboard */; };
 		573EFF732610832D00589BB2 /* Rock_Paper_ScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EFF722610832D00589BB2 /* Rock_Paper_ScissorsTests.swift */; };
 		573EFF7E2610832D00589BB2 /* Rock_Paper_ScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EFF7D2610832D00589BB2 /* Rock_Paper_ScissorsUITests.swift */; };
+		573EFF99261A0C9600589BB2 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EFF98261A0C9600589BB2 /* EndGameViewController.swift */; };
+		573EFFA6261A2CDA00589BB2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EFFA5261A2CDA00589BB2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		573EFF792610832D00589BB2 /* Rock_Paper_ScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rock_Paper_ScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573EFF7D2610832D00589BB2 /* Rock_Paper_ScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsUITests.swift; sourceTree = "<group>"; };
 		573EFF7F2610832D00589BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573EFF98261A0C9600589BB2 /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		573EFFA5261A2CDA00589BB2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				573EFF5B2610832A00589BB2 /* AppDelegate.swift */,
 				573EFF5D2610832A00589BB2 /* SceneDelegate.swift */,
 				573EFF5F2610832A00589BB2 /* ViewController.swift */,
+				573EFF98261A0C9600589BB2 /* EndGameViewController.swift */,
 				573EFF612610832A00589BB2 /* Main.storyboard */,
+				573EFFA5261A2CDA00589BB2 /* MainViewController.swift */,
 				573EFF642610832D00589BB2 /* Assets.xcassets */,
 				573EFF662610832D00589BB2 /* LaunchScreen.storyboard */,
 				573EFF692610832D00589BB2 /* Info.plist */,
@@ -260,7 +266,9 @@
 			files = (
 				573EFF602610832A00589BB2 /* ViewController.swift in Sources */,
 				573EFF5C2610832A00589BB2 /* AppDelegate.swift in Sources */,
+				573EFF99261A0C9600589BB2 /* EndGameViewController.swift in Sources */,
 				573EFF5E2610832A00589BB2 /* SceneDelegate.swift in Sources */,
+				573EFFA6261A2CDA00589BB2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
