@@ -20,7 +20,6 @@ class EndGameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         scoreLabel.text = scoreData
-        //self.scoreLabel.text = scoreData
         // Do any additional setup after loading the view.
     }
     
